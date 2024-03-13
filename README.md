@@ -4,3 +4,6 @@ using sockets. The application should support multiple client connections to the
 simultaneously, allowing users to send and receive messages in a shared chatroom 
 environment.
 ## Using only Node.js
+### To run 
+nodemon index.js
+
