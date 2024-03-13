@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+
   <title>Private Chat-Friends/Family</title>
   <link rel="icon" type="image/png" href="favicon.png">
   <style>
@@ -99,7 +100,7 @@
     </form>
   </div>
   <script>
-    const ws = new WebSocket('ws://localhost:8080');
+    const ws = new WebSocket('wss://private-chat-8tgp.onrender.com'); 
     const messages = document.getElementById('messages');
     const form = document.getElementById('form');
     const input = document.getElementById('input');
